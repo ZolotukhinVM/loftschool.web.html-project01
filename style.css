@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body  {
+  font: 300 16px/1.42 'Open Sans', Helvetica, sans-serif;
+  /* font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.42; */
+  -webkit-font-smoothing: antialiased; /* сглаживание шрифта */
+  -moz-osx-smoothing: grayscale;
+}
+
+/* base */
+
+.wrapper {
+  /* background: url("./images/promo/bg.png"); */
+}
+header {
+  /* position: relative; */
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+.logo, nav, address, .social, .tours__elem, .tours__elem-icon, .tours__elem-descr {
+  display: inline-block;
+  border: 1px solid red;
+}
+.tours__elem {
+  width: 137px;
+}
+.logo {
+  width: 200px;
+}
+nav {
+  width: 600px;
+}
+address {
+  width: 200px;
+}
+button.button {
+  color: #fff;
+  background: red;
+  font-weight: 700;
+  border-radius: 35px;
+  padding: 18px 40px;
+  box-shadow: none;
+  text-transform: uppercase;
+}
+section.tours .button {
+  padding: 18px 29px;
+}
+
+/* promo */
+
+section.promo {
+  color: #fff;
+  height: 60vh;
+  background: silver;
+}
+.promo__header {
+  font-size: 72px;
+}
+
+/* tours */
+
+.tours__list {
+  display: relative;
+}
+.tours__item {
+  width: 362px;
+  border: 1px solid silver;
+}
+
+/* news */
+
+/* footer */
