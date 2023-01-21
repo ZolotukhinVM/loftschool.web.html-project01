@@ -340,6 +340,8 @@ header .contacts {
 
 .about {
     margin-bottom: 75px;
+    background-image: url("./images/about/bg.png");
+    background-position: top;
 }
 
 .about__subheader {
@@ -355,7 +357,8 @@ header .contacts {
 }
 
 .footer {
-    height: 120px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    height: 150px;
     position: relative;
     margin-bottom: 10px;
 }
@@ -389,6 +392,12 @@ header .contacts {
 
 .social__link:hover {
     opacity: .5;
+}
+
+.footer .contacts {
+    position: absolute;
+    right: 0;
+    bottom: 55px;
 }
 
 .footer .contacts__text {
