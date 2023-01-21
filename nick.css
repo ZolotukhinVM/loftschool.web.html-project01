@@ -1,0 +1,33 @@
+/* base */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* не обязательно */
+.wrapper {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px; /* Какая сейчас актуальная ширина для сайтов */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
