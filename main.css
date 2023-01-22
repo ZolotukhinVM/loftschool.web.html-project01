@@ -19,9 +19,8 @@ body  {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background-image: url("./images/promo/bg.png");
+    background: url("./images/promo/bg.png") 50% 0, url("./images/about/bg.png") 50% 80%;
     background-repeat: no-repeat;
-    background-position: 50% 0;
 }
 
 a {
@@ -37,7 +36,7 @@ ul li {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     font-weight: normal;
 }
@@ -100,7 +99,7 @@ header .menu {
 
 .menu__item {
     display: inline-block;
-    vertical-align: middle; /* не понял */
+    vertical-align: middle;
     margin-right: 50px;
 }
 
@@ -135,7 +134,7 @@ header .contacts {
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
-    margin-bottom: 4px; /* не понял */
+    margin-bottom: 4px;
 }
 
 .contacts__dropdown-title {
@@ -164,9 +163,12 @@ header .contacts {
     margin-bottom: 127px;
 }
 
+.tours__subheader {
+    margin-right: 12px;
+}
+
 .tours__subheader-title {
     display: inline-block;
-    margin-right: 12px;
 }
 
 .tours__photo {
@@ -179,12 +181,13 @@ header .contacts {
 
 .tours__block {
     color: #666;
+    margin-bottom: 24px;
 }
 
 .tours__info {
     color: #303030;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .tours .button {
@@ -266,7 +269,7 @@ header .contacts {
     right: 0;
     bottom: 0;
     padding: 25px 30px;
-    min-height: 150px; /* не очень понял зачем */
+    min-height: 150px;
 }
 
 .news__date {
@@ -277,6 +280,7 @@ header .contacts {
 .news__subheader {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .news__description {
@@ -340,7 +344,6 @@ header .contacts {
 
 .about {
     margin-bottom: 75px;
-    background-image: url("./images/about/bg.png");
     background-position: top;
 }
 
@@ -381,9 +384,9 @@ header .contacts {
     bottom: 55px;
 }
 
-.social__item {
+.social__item, .social__link {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .social__item:last-child {
@@ -403,5 +406,5 @@ header .contacts {
 .footer .contacts__text {
     color: #9A9A9A;
     font-size: 11px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
