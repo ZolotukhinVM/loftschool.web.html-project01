@@ -16,10 +16,9 @@ body  {
 }
 
 .wrapper {
-    overflow: hidden;
-    min-width: 1140px;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
     background: url("./images/promo/bg.png") 50% 0, url("./images/about/bg.png") 50% 80%;
     background-repeat: no-repeat;
 }
@@ -181,7 +180,6 @@ header .contacts {
 }
 
 .tours__block {
-    display: flex;
     color: #666;
     margin-bottom: 24px;
 }
@@ -210,18 +208,13 @@ header .contacts {
     color: #fff;
 }
 
-.tours__list {
-    display: flex;
-    justify-content: space-between;
-}
-
 .tours__item {
-    width: 360px;
+    display: inline-block;
     min-height: 449px;
+    width: 360px;
     background: #fff;
     color: #303030;
     margin-right: 23px;
-    border-radius: 5px;
 }
 
 .tours__item:last-child {
@@ -233,11 +226,11 @@ header .contacts {
 }
 
 .tours__elem {
-    display: flex;
     width: 137px;    
 }
 
 .tours__elem, .tours__elem-icon, .tours__elem-descr {
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -249,17 +242,11 @@ header .contacts {
     margin-bottom: 150px;
 }
 
-.news__list {
-    display: flex;
-    margin-bottom: 58px;
-}
-
 .news__item {
     position: relative;
+    display: inline-block;
     width: 550px;
     margin-right: 25px;
-    border: 1px solid red;
-    /* background: url("./images/news/news-1.png") 0 50%; */
 }
 
 .news__item:last-child {
@@ -276,6 +263,8 @@ header .contacts {
 
 .news__content {
     position: absolute;
+    /* top: 252px; */
+    /* left: 32px; */
     left: 0;
     right: 0;
     bottom: 0;
@@ -296,6 +285,10 @@ header .contacts {
 
 .news__description {
     font-size: 16px;
+}
+
+.news__list {
+    margin-bottom: 58px;
 }
 
 .paginator {
