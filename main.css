@@ -78,24 +78,40 @@ h3 {
     width: 1140px;
 }
 
+.promo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* вообще не понятно */
+    min-height: 750px;
+    border: 1px solid red;
+}
+
 .header {
-    height: 120px;
-    position: relative;
-    margin-bottom: 80px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
-header .logo {
-    position: absolute;
-    top: 29px;
-    left: 0;
+.header__col {
+    display: flex;
+    align-items: center;
 }
 
-header .menu {
-    position: absolute;
-    top: 39px;
-    left: 160px;
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.menu {
+
+}
+
+.contacts {
+
 }
 
 .menu__item {
@@ -121,12 +137,6 @@ header .menu {
     color: #F5170E;
 }
 
-header .contacts {
-    position: absolute;
-    top: 26px;
-    right: 0;
-}
-
 .contacts {
     font-style: normal;
     text-align: right;
@@ -144,7 +154,7 @@ header .contacts {
 }
 
 .promo {
-    width: 520px;
+    width: 45%;
     margin-bottom: 246px;
 }
 
@@ -165,11 +175,12 @@ header .contacts {
 }
 
 .tours__subheader {
-    margin-right: 12px;
+    display: flex;
+    align-items: baseline;
 }
 
 .tours__subheader-title {
-    display: inline-block;
+    margin-right: 12px;
 }
 
 .tours__photo {
@@ -177,7 +188,7 @@ header .contacts {
 }
 
 .tours__img {
-    width: 360px;
+    /* width: 362px; */
 }
 
 .tours__block {
@@ -216,16 +227,12 @@ header .contacts {
 }
 
 .tours__item {
-    width: 360px;
+    /* width: 362px; */
+    width: calc(100% / 3 - 18px);
     min-height: 449px;
     background: #fff;
     color: #303030;
-    margin-right: 23px;
     border-radius: 5px;
-}
-
-.tours__item:last-child {
-    margin-right: 0;
 }
 
 .tours__content {
@@ -234,11 +241,13 @@ header .contacts {
 
 .tours__elem {
     display: flex;
-    width: 137px;    
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
-.tours__elem, .tours__elem-icon, .tours__elem-descr {
-    vertical-align: middle;
+.tours__elem:last-child {
+    margin-right: 0;
 }
 
 .tours__elem-icon {
