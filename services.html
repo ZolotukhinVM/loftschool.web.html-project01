@@ -11,138 +11,186 @@
 </head>
 
 <body>
-
-  <div class="wrapper">
-
-    <div class="container">
-      <header class="header">
-        <div class="logo">
-          <a href="./index.html" class="logo__link">
-            <img src="./images/logo.png" alt="Asia" class="logo__img">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-            <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+  <div class="wrapper wrap-services">
+    <section class="top-line">
+      <div class="container top-line__container">
+        <header class="header">
+          <div class="header__col">
+            <div class="logo">
+              <a href="./index.html" class="logo__link">
+                <img src="./images/logo.png" alt="Asia" class="logo__img">
+              </a>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col header__col--align--right">
+            <address class="contacts">
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__dropdown-title">График работы</div>
+            </address>
+          </div>
+    
+        </header>
+        <h1 class="page-title">Услуги</h1>
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="./index.html" class="breadcrumbs__link">Главая</a>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item--active">
+              <a href="./services.html" class="breadcrumbs__link">Услуги</a>
+            </li>            
           </ul>
         </nav>
-        <address class="contacts">
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__dropdown-title">График работы</div>
-        </address>
-     </header>
-      <div class="hero">
-        <div class="hero__header">Услуги</div>
-          <ul class="hero__list">
-            <li class="hero__item"><a href="./" class="hero__link">Главная</a></li>
-            <li class="hero__item hero__link--current"><a href="./services.html" class="hero__link">Услуги</a></li>
-          </ul>
-        </div>
-    </div> <!--container block1-->
-
-    <main class="main_content">
+    
+      </div>
+    </section>
+    <main class="page-content">
       <div class="container">
-        <div class="services">
-          <ul class="services__list">
-            <li class="services__item">
-              <div class="services__images">
-                <img src="./images/services/services-1.png" alt="Services" class="services__img-pic">
+        <ul class="services">
+          <li class="services__item service">
+            <div class="service__img">
+              <img src="./images/services/services-1.png" alt="service" class="service__img-elem">
+            </div>
+            <div class="service__content">
+              <h2 class="service__title">Заговок</h2>
+              <div class="service__desc">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur, accusantium tempore dolorem fuga consequatur! Sequi similique aliquam tenetur, dolorum esse accusantium nulla earum perferendis est, consectetur, exercitationem culpa tempore!</p>
               </div>
-              <div class="services__info">
-                <h3 class="services__title">Водобад Янг-Бей</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere eligendi voluptatibus, eaque ipsam ab minus sequi dolores cum voluptate qui! Tenetur hic ad aliquam, beatae aperiam impedit. Doloremque, dolores voluptate.</p>
-                <div class="services__button">
-                  <a href="#" class="button">Подробнее</a>
-                </div>
+              <div class="service__button">
+                <a href="#" class="button">Подробнее</a>
               </div>
-            </li>
-            <li class="services__item">
-              <div class="services__img">
-                <img src="./images/services/services-2.png" alt="Services" class="servisec__img-pic">
+            </div>
+          </li>
+          <li class="service__item service">
+            <div class="service__img">
+              <img src="./images/services/services-2.png" alt="service" class="service__img-elem">
+            </div>
+            <div class="service__content">
+              <h2 class="service__title">Заговок</h2>
+              <div class="service__desc">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur, accusantium tempore dolorem fuga consequatur! Sequi similique aliquam tenetur, dolorum esse accusantium nulla earum perferendis est, consectetur, exercitationem culpa tempore!</p>
               </div>
-              <div class="services__info">
-                <h3 class="services__title">Водобад Янг-Бей</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere eligendi voluptatibus, eaque ipsam ab minus sequi dolores cum voluptate qui! Tenetur hic ad aliquam, beatae aperiam impedit. Doloremque, dolores voluptate.</p>
-                <div class="services__button services__button--active">
-                  <a href="#" class="button">Подробнее</a>
-                </div>
+              <div class="service__button">
+                <a href="#" class="button">Подробнее</a>
               </div>
-            </li>
+            </div>
+          </li>
+        </ul>
+        <div class="paginator">
+          <div class="paginator__pages">Страница 1 из 7</div>
+          <ul class="paginator__list">
+            <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link">1</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+            <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
           </ul>
-          <div class="paginator">
-            <div class="paginator__pages">Страница 1 из 7</div>
-            <ul class="paginator__list">
-              <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link">1</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
-              <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </main>
-
-    <section class="partners">
-    <div class="container">
-      <h2 class="partners__title">
-        <div class="partners__list">
-          <img src="./images/services/partners-1.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-2.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-3.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-4.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-5.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-6.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-7.png" alt="Partners" class="partners__images">
-          <img src="./images/services/partners-8.png" alt="Partners" class="partners__images">
-        </div>
-      </h2>
-    </div>  
-    </section>
-    
-    <div class="footer">
+    <section class="partners partners__bg--grey">
       <div class="container">
-        <div class="logo">
-          <a href="./index.html" class="logo__link">
-            <img src="./images/logo.png" alt="Asia" class="logo__img">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-          </ul>
-        </nav>
-        <div class="social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a href="#" class="social__link"><img src="./images/icon/social/telegram.png" alt="telegram" class="social__pic telegram"></a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link"><img src="./images/icon/social/vk.png" alt="vkontakte" class="social__pic vkontakte"></a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link"><img src="./images/icon/social/f.png" alt="facebook" class="social__pic facebook"></a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link"><img src="./images/icon/social/in.png" alt="instagram" class="social__pic instagram"></a>
-            </li>
-          </ul>
-        </div>
-        <address class="contacts">
-          <div class="contacts__text">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        </address>
+        <h2 class="partners__title">Партнеры</h2>
+        <ul class="partners__list">
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-1.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-2.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-3.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-4.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-5.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-6.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-7.png" alt="Parters" class="partners__img">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./images/services/partners-8.png" alt="Parters" class="partners__img">
+            </a>
+          </li>    
+        </ul>
       </div>
-    </div>
-  </footer>
 
-  </div> <!--wrapper-->
+    </section>
+    <div class="container">
+      <footer class="footer footer-page">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="./index.html" class="logo__link">
+              <img src="./images/logo.png" alt="Asia" class="logo__img">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__col footer__col--align-right">
+          <div class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#" class="social__link"><img src="./images/icon/social/telegram.png" alt="telegram" class="social__pic telegram"></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link"><img src="./images/icon/social/vk.png" alt="vkontakte" class="social__pic vkontakte"></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link"><img src="./images/icon/social/f.png" alt="facebook" class="social__pic facebook"></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link"><img src="./images/icon/social/in.png" alt="instagram" class="social__pic instagram"></a>
+              </li>
+            </ul>
+          </div>
+          <address class="contacts">
+            <div class="contacts__text">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+        </div>
+      </footer>
+  
+    </div>
+
+
+
+
+  </div>
 
 </body>
 </html>
