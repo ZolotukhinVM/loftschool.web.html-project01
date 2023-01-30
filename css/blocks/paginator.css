@@ -1,0 +1,40 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator__list  {
+  display: flex;
+  align-items: center;
+}
+
+.paginator__pages {
+  margin-right: 25px;
+}
+
+.paginator__item {
+  text-align: center;
+}
+
+.paginator__link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  padding: 5px 11px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.paginator__link:hover {
+  color: #F5170E;
+  background: #fff;
+}
+
+.paginator__item--active .paginator__link {
+  color: #F5170E;
+  background: #fff;
+}

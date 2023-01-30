@@ -1,0 +1,20 @@
+
+.social {
+  margin-right: 74px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link:hover {
+  opacity: .5;
+}

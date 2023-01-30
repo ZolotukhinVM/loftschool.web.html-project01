@@ -1,0 +1,82 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+font: 400 16px/1.42 'Open Sans', Helvetica, sans-serif;
+-webkit-font-smoothing: antialiased; /* сглаживание шрифта */
+-moz-osx-smoothing: grayscale;
+color: #fff;
+background: #001821;
+margin: 0;
+height: 100%;
+width: 100%;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1140px;
+  height: 100%;
+  width: 100%;
+  background: url("../..//images/promo/bg.png") 50% 0, url("../../images/about/bg.png") 50% 80%;
+  background-repeat: no-repeat;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: inherit; /* наследие */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 51px;
+}
+
+h3 {
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.button {
+  color: #fff;
+  font-size: 14px;
+  background: red;
+  font-weight: 700;
+  border-radius: 35px;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  box-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #F5170E;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}

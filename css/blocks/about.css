@@ -1,0 +1,33 @@
+.about__img, .about__info {
+  display: inline-block;
+}
+
+.about__info {
+  background: #fff;
+  color: #fff !important;
+  width: 775px;
+  min-height: 455px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin-left: -139px;
+  margin-top: 92px;
+  background-image: url("../../images/about/img-bg.png");
+  padding: 70px 80px;
+}
+
+.about {
+  margin-bottom: 75px;
+  background-position: top;
+}
+
+.about__subheader {
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.about__text {
+  font-size: 16px;
+  color: #060606;
+  width: 500px;
+  margin-bottom: 43px;
+}

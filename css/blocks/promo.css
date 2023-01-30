@@ -1,0 +1,23 @@
+.promo {
+  width: 45%;
+  margin-bottom: 246px;
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* вообще не понятно */
+  min-height: 750px;;
+}
+
+.promo__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.promo__subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}

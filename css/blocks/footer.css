@@ -1,0 +1,25 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  height: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer__col--align--right {
+  align-items: right;
+}
+
+.footer .contacts__text {
+  color: #9A9A9A;
+  font-size: 11px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,164 @@
+
+.page-header {
+  margin-bottom: 0;
+}
+
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background: url("../../images/services/bg.jpg") right 20% top no-repeat;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-style: 14px;
+  font-weight: 700;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: normal;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.wrap-services {
+  background: none;
+}
+
+.page-content {
+  padding: 100px 0;
+  background: #fff;
+  color: #303030;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.service:last-child {
+  margin-bottom: 69px;
+}
+
+.service__img {
+  width: 30%;
+  margin-right: 7%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  color: #000;
+  margin: 0;
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+.service__desc {
+  margin-bottom: 34px;
+}
+
+.wrap-services .paginator__link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  background: transparent;
+  color: #000;
+  padding: 5px 11px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.wrap-services .paginator__link:hover {
+  background: #F5170E;
+  color: #fff;
+}
+
+.wrap-services .paginator__item--active .paginator__link {
+  background: #F5170E;
+  color: #fff;
+}
+
+.partners {
+  background: #fff;
+  color: #000;
+  padding: 100px 0;
+}
+
+.partners__bg--grey {
+  background: #F4F5F5;
+}
+
+.partners__title {
+  color:#000;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.partners__item {
+  /* margin-left: 0; */
+}
+
+.partners__item:nth-child(4n + 1) {
+  /* margin-left: 0; */
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 275px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(80%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
+
+.footer-page {
+  height: 100px;
+}
