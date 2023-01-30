@@ -15,6 +15,6 @@
   margin-right: 0;
 }
 
-.social__link:hover {
+.social__item:hover {
   opacity: .5;
 }
