@@ -63,13 +63,17 @@
   color: #303030;
 }
 
+.services {
+  margin-bottom: 69px;
+}
+
 .service {
   display: flex;
   margin-bottom: 50px;
 }
 
 .service:last-child {
-  margin-bottom: 69px;
+  margin-bottom: 0;
 }
 
 .service__img {
