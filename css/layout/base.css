@@ -16,7 +16,7 @@ width: 100%;
 
 .wrapper {
   overflow: hidden;
-  min-width: 1140px;
+  /* min-width: 1140px; */
   height: 100%;
   width: 100%;
   background: url("../..//images/promo/bg.png") 50% 0, url("../../images/about/bg.png") 50% 80%;
@@ -53,7 +53,7 @@ h2 {
 }
 
 h3 {
-  color: #000;
+  color: #1A1B1E;
   font-weight: 900;
   font-size: 24px;
   margin-bottom: 23px;
@@ -76,7 +76,114 @@ h3 {
   background: #F5170E;
 }
 
+.button__button {
+  color: #fff;
+  font-size: 14px;
+  background: red;
+  font-weight: 700;
+  border-radius: 35px;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  box-shadow: none;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.button__button:hover {
+  background: #F5170E;
+}
+
+.button__button--bg--black {
+  background: #2B2B2B;
+}
+
+.button__button--bg--black:hover {
+  background: #000;
+}
+
 .container {
   margin: 0 auto;
   width: 1140px;
+}
+
+/* pages styles - services & feedback */
+
+.page-header {
+  margin-bottom: 0;
+}
+
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background: url("../../images/services/bg.jpg") right 20% top no-repeat;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-style: 14px;
+  font-weight: 700;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: normal;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.wrap-pages {
+  background: none;
+}
+
+.page-content {
+  padding: 100px 0;
+  background: #fff;
+  color: #303030;
+}
+
+.wrap-pages .paginator__link {
+  color: #000;
+}
+
+.wrap-pages .paginator__link:hover {
+  background: #F5170E;
+  color: #fff;
+}
+
+.wrap-pages .paginator__item--active .paginator__link {
+  background: #F5170E;
+  color: #fff;
 }
