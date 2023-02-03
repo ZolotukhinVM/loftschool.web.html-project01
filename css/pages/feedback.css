@@ -18,6 +18,9 @@
   background-color: #F4F5F5;
 }
 
+.fb__contacts {
+  align-items: center;
+}
 
 .fb__card {
   display: flex;
@@ -40,11 +43,9 @@
   margin-bottom: 10px;
 }
 
-.fb__contacts {
-  /* display: flex; */
-}
-
 .fb__link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-size: 24px;
   font-weight: 700;
@@ -54,6 +55,7 @@
 .fb__link:after {
   content: url("../../images/feedback/vk.png");
   height: 30px;
+  margin-left: 7px;
 }
 
 .fb__link:hover {
@@ -109,7 +111,11 @@
   /* display: flex; */
   /* flex-direction: column; */
   align-items: center;
-  background: url("../../images/feedback/bg.jpg") right 20% bottom no-repeat;
+  background: url("../../images/feedback/bg.jpg") right bottom no-repeat;
+}
+
+.joy__block {
+  /* background: url("../../images/feedback/couple.png") bottom right no-repeat */
 }
 
 .joy__title {
