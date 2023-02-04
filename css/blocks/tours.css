@@ -3,20 +3,21 @@
 }
 
 .tours__subheader {
-  display: flex;
-  align-items: baseline;
+  margin-bottom: 51px;
 }
 
 .tours__subheader-title {
-  /* display: flex; */
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
   margin-right: 12px;
+  margin-bottom: 0;
 }
 
 .tours__subheader-title:after {
   content: url("../../images/icon/hot.png");
   margin-left: 12px;
-  height: 45px;
+  width: 21px;
+  height: 28px;
 }
 
 .tours__photo {

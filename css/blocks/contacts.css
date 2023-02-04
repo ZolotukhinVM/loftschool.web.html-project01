@@ -22,7 +22,7 @@
   text-align: left;
   padding: 22px 19px;
   color: #1E1F20;
-  display: none;
+  visibility: hidden;
   border-radius: 5px;
   margin-top: 10px;
   opacity: 0;
@@ -35,12 +35,12 @@
 }
 
 .contacts__dropdown {
-  /* display: inline-block; */
   position: relative;
 }
 
 .contacts__dropdown:hover .contacts__dropdown-menu {
-  display: block;
+  /* display: block; */
+  visibility: visible;
   position: absolute;
   right: 0;
   top: 100%;

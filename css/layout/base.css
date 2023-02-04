@@ -16,7 +16,7 @@ width: 100%;
 
 .wrapper {
   overflow: hidden;
-  /* min-width: 1140px; */
+  min-width: 1140px;
   height: 100%;
   width: 100%;
   background: url("../..//images/promo/bg.png") 50% 0, url("../../images/about/bg.png") 50% 80%;
