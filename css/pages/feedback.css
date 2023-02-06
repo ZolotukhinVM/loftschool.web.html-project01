@@ -6,7 +6,7 @@
   margin-bottom: 70px;
 }
 
-.fb__item {
+.feedback__item {
   margin-bottom: 17px;
 }
 
@@ -45,7 +45,6 @@
 
 .fb__link {
   display: flex;
-  align-items: center;
   text-decoration: none;
   font-size: 24px;
   font-weight: 700;
@@ -171,7 +170,7 @@
   width: 100%;
 }
 
-.form__item {
+.form__list {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
@@ -209,7 +208,7 @@
 }
 
 .form__controls-title {
-  width: 50%;
+  width: 30%;
   margin-right: 40px;
   padding-top: 5px;
 }
@@ -222,4 +221,5 @@
 .form__row:last-child {
   justify-content: flex-end;
   column-gap: 17px;
+  margin-bottom: 0;
 }
