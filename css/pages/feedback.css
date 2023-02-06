@@ -106,16 +106,18 @@
 }
 
 .joy {
-  position: relative;
+  /* position: relative; */
   min-height: 363px;
   /* display: flex; */
   /* flex-direction: column; */
   align-items: center;
-  background: url("../../images/feedback/bg.jpg") right bottom no-repeat;
+  background: url("../../images/feedback/bg.jpg") center center no-repeat;
+  background-size: cover;
 }
 
-.joy__block {
-  /* background: url("../../images/feedback/couple.png") bottom right no-repeat */
+.feedback-container {
+  position: relative;
+
 }
 
 .joy__title {
@@ -130,14 +132,18 @@
 }
 
 .joy__img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   width: 487px;
   height: 341px;
 }
 
 .joy__block {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  min-height: 363px;
 }
 
 .form__title {

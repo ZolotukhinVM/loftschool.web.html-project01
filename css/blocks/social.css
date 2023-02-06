@@ -5,10 +5,13 @@
 
 .social__list {
   display: flex;
+  /* min-height: 40px; */
 }
 
 .social__item {
   margin-right: 10px;
+  transition: .5s;
+  opacity: .75;
 }
 
 .social__item:last-child {
@@ -16,5 +19,27 @@
 }
 
 .social__item:hover {
-  opacity: .5;
+  opacity: 1;
+}
+
+.social__icon {
+  width: 36px;
+  height: 36px;
+  background: url("../../images/icon/social/sprites.png");
+}
+
+.facebook {
+  background-position: -10px -10px;
+}
+
+.instagram {
+  background-position: -66px -10px;
+}
+
+.telegram {
+  background-position: -122px -10px;
+}
+
+.vkontakte {
+  background-position: -178px -10px;
 }
