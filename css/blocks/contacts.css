@@ -57,7 +57,8 @@
   position: absolute;
 }
 
-.contacts__dropdown-triangle {
+.contacts__dropdown-menu::before {
+  content: "";
   position: absolute;
   top: -25px;
   right: 40px;
