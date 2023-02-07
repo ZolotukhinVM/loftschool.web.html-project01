@@ -20,7 +20,15 @@
 }
 
 .tours__photo {
-  min-height: 142px;
+  height: 142px;
+}
+
+.tours__img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 0 30%;
 }
 
 .tours__block {
