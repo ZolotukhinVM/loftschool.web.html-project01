@@ -27,7 +27,7 @@
   margin-top: 10px;
   opacity: 0;
   transition: opacity .5s;
-  right: -9999px;
+  /* right: -9999px; */
 }
 
 .contacts__dropdown-menu p:first-child {
@@ -47,7 +47,7 @@
   opacity: 1;
 }
 
-.contacts__dropdown:before {
+.contacts__dropdown::before {
   content: "";
   display: block;
   height: 20px;
